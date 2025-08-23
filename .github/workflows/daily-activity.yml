@@ -1,7 +1,7 @@
 name: Daily activity
 on:
   schedule:
-    - cron: "25 0 * * *" 
+    - cron: "25 0 * * *"   # 00:25 UTC (~6:25 PM Denver in summer, 5:25 PM in winter)
   workflow_dispatch:
 
 permissions:
@@ -328,32 +328,95 @@ jobs:
             "ci: run inference smoke tests"
             "ci: add automated hyperparameter sweep"
             "ci: upload model to registry"
-            
           )
-
           echo "MSG=${msgs[$RANDOM % ${#msgs[@]}]}" >> $GITHUB_OUTPUT
 
-      - name: Make tiny realistic change sometimes
+      - name: Make realistic change matching the message
         id: change
         shell: bash
         run: |
           set -euo pipefail
-          if [ $((RANDOM % 10)) -lt 6 ]; then
-            if [ -f README.md ]; then
-              if grep -q "last-updated:" README.md; then
-                sed -i "s/last-updated: .*/last-updated: $(date -u +"%Y-%m-%d %H:%M:%SZ")/" README.md
-              else
-                printf "\n<!-- maintenance: last-updated: %s -->\n" "$(date -u +"%Y-%m-%d %H:%M:%SZ")" >> README.md
-              fi
-              git add README.md
-            else
-              mkdir -p docs
-              printf "Note updated %s\n" "$(date -u +"%Y-%m-%d %H:%M:%SZ")" >> docs/notes.md
-              git add docs/notes.md
-            fi
-            echo "EMPTY=false" >> $GITHUB_OUTPUT
-          else
+          msg='${{ steps.pool.outputs.MSG }}'
+          prefix="${msg%%:*}"
+          ts="$(date -u +"%Y-%m-%d %H:%M:%SZ")"
+
+          # 30% chance: empty commit to keep repo small
+          if [ $((RANDOM % 10)) -lt 3 ]; then
             echo "EMPTY=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          mkdir -p src tests docs .github/workflows build
+
+          case "$prefix" in
+            docs)
+              if [ -f README.md ]; then
+                if grep -q "last-updated:" README.md; then
+                  sed -i "s/last-updated: .*/last-updated: ${ts}/" README.md
+                else
+                  printf "\n<!-- maintenance: last-updated: %s -->\n" "$ts" >> README.md
+                fi
+                git add README.md
+              else
+                printf "Maintenance notes updated %s\n" "$ts" >> docs/notes.md
+                git add docs/notes.md
+              fi
+              ;;
+            test)
+              echo "# smoke $(date -u +%s)" >> tests/smoke.test
+              git add tests/smoke.test
+              ;;
+            feat|fix)
+              if [ -f src/app.py ]; then
+                echo "# ${msg} @ ${ts}" >> src/app.py
+                git add src/app.py
+              elif [ -f src/index.js ]; then
+                echo "// ${msg} @ ${ts}" >> src/index.js
+                git add src/index.js
+              else
+                echo "// ${msg} @ ${ts}" > "src/feature_${RANDOM}.js"
+                git add src/feature_*.js
+              fi
+              ;;
+            refactor|perf|style)
+              target=""
+              for f in src/app.py src/index.js src/main.ts; do
+                [ -f "$f" ] && target="$f" && break
+              done
+              if [ -n "$target" ]; then
+                echo "// maintenance ${prefix} ${ts}" >> "$target"
+                git add "$target"
+              else
+                echo "// ${prefix} note ${ts}" >> src/maintenance.ts
+                git add src/maintenance.ts
+              fi
+              ;;
+            chore)
+              echo "# updated ${ts}" >> .gitignore
+              git add .gitignore
+              ;;
+            build)
+              if [ -f Dockerfile ]; then
+                printf "\n# touch %s\n" "$ts" >> Dockerfile
+                git add Dockerfile
+              else
+                printf "build note %s\n" "$ts" >> build/README.md
+                git add build/README.md
+              fi
+              ;;
+            ci)
+              printf "# touch %s\n" "$ts" >> .github/workflows/aux.yml
+              git add .github/workflows/aux.yml
+              ;;
+            *)
+              echo "EMPTY=true" >> $GITHUB_OUTPUT
+              ;;
+          esac
+
+          if git diff --cached --quiet; then
+            echo "EMPTY=true" >> $GITHUB_OUTPUT
+          else
+            echo "EMPTY=false" >> $GITHUB_OUTPUT
           fi
 
       - name: Commit
@@ -364,7 +427,7 @@ jobs:
           if [ "${{ steps.change.outputs.EMPTY }}" = "true" ]; then
             git commit --allow-empty -m "${{ steps.pool.outputs.MSG }}"
           else
-            git diff --cached --quiet && git commit --allow-empty -m "${{ steps.pool.outputs.MSG }}" || git commit -m "${{ steps.pool.outputs.MSG }}"
+            git commit -m "${{ steps.pool.outputs.MSG }}"
           fi
 
       - name: Push
