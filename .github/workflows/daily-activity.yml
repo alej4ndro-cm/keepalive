@@ -342,9 +342,9 @@ jobs:
             prefix="${msg%%:*}"
             ts="$(date -u +"%Y-%m-%d %H:%M:%SZ")"
 
-            # 30% empty commit to limit repo growth
+            # 30% empty commit
             if [ $((RANDOM % 10)) -lt 3 ]; then
-              git commit --allow-empty -m "$msg"
+              git commit --allow-empty --author="alej4ndro-cm <90579820+alej4ndro-cm@users.noreply.github.com>" -m "$msg"
             else
               case "$prefix" in
                 docs)
@@ -376,15 +376,17 @@ jobs:
                   git add .github/workflows/aux.yml
                   ;;
                 *)
-                  git commit --allow-empty -m "$msg"
+                  git commit --allow-empty --author="alej4ndro-cm <90579820+alej4ndro-cm@users.noreply.github.com>" -m "$msg"
                   continue
                   ;;
               esac
 
-              git diff --cached --quiet && git commit --allow-empty -m "$msg" || git commit -m "$msg"
+              git diff --cached --quiet \
+                && git commit --allow-empty --author="alej4ndro-cm <90579820+alej4ndro-cm@users.noreply.github.com>" -m "$msg" \
+                || git commit --author="alej4ndro-cm <90579820+alej4ndro-cm@users.noreply.github.com>" -m "$msg"
             fi
 
-            sleep $((RANDOM % 10 + 3))   # short delay between commits
+            sleep $((RANDOM % 10 + 3))   # delay between commits
           done
 
       - name: Push
