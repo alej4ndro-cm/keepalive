@@ -3,3 +3,4 @@
 // style: update config file formatting @ 2025-08-27 02:12:17Z
 // perf: optimize DB query @ 2025-08-28 02:11:27Z
 // style: adjust UI theme colors @ 2025-08-28 02:11:43Z
+// refactor: migrate to PyTorch Lightning @ 2025-09-01 02:33:08Z
