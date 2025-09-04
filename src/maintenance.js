@@ -6,3 +6,4 @@
 // refactor: migrate to PyTorch Lightning @ 2025-09-01 02:33:08Z
 // refactor: separate DB migrations @ 2025-09-03 02:00:10Z
 // style: apply prettier formatting @ 2025-09-04 02:03:35Z
+// refactor: migrate to PyTorch Lightning @ 2025-09-04 02:03:46Z
