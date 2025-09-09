@@ -8,3 +8,4 @@
 // style: apply prettier formatting @ 2025-09-04 02:03:35Z
 // refactor: migrate to PyTorch Lightning @ 2025-09-04 02:03:46Z
 // style: run linter on project @ 2025-09-05 21:33:45Z
+// refactor: flatten nested logic @ 2025-09-09 02:14:17Z
