@@ -4,3 +4,4 @@
 // feat: implement user settings page @ 2025-09-05 21:33:35Z
 // fix: adjust dataset preprocessing @ 2025-09-12 02:01:08Z
 // fix: restore missing CSS styles @ 2025-09-15 02:18:52Z
+// feat: enable email notifications @ 2025-09-17 02:02:53Z
