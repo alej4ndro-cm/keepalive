@@ -6,3 +6,4 @@
 // fix: restore missing CSS styles @ 2025-09-15 02:18:52Z
 // feat: enable email notifications @ 2025-09-17 02:02:53Z
 // feat: add user profile page @ 2025-09-19 02:11:32Z
+// fix: adjust mobile layout bug @ 2025-09-20 02:01:02Z
