@@ -14,3 +14,4 @@
 // refactor: extract inference service @ 2025-09-20 02:01:14Z
 // style: apply prettier formatting @ 2025-09-22 02:21:51Z
 // refactor: separate CPU/GPU paths @ 2025-09-23 02:09:53Z
+// style: correct alignment in UI @ 2025-09-27 02:01:39Z
