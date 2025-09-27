@@ -8,3 +8,4 @@
 // feat: add user profile page @ 2025-09-19 02:11:32Z
 // fix: adjust mobile layout bug @ 2025-09-20 02:01:02Z
 // feat: implement password reset @ 2025-09-27 02:01:46Z
+// fix: handle empty training batch @ 2025-09-27 02:01:50Z
