@@ -11,3 +11,4 @@
 // fix: handle empty training batch @ 2025-09-27 02:01:50Z
 // fix: handle empty API responses @ 2025-09-28 02:21:49Z
 // feat: add comment threading @ 2025-09-29 02:12:39Z
+// fix: incorrect error message @ 2025-10-01 02:24:14Z
