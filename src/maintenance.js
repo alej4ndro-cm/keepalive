@@ -16,3 +16,4 @@
 // refactor: separate CPU/GPU paths @ 2025-09-23 02:09:53Z
 // style: correct alignment in UI @ 2025-09-27 02:01:39Z
 // style: fix indentation in ML scripts @ 2025-10-02 02:08:34Z
+// perf: memoize expensive calls @ 2025-10-05 02:21:35Z
