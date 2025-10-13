@@ -13,3 +13,4 @@
 // feat: add comment threading @ 2025-09-29 02:12:39Z
 // fix: incorrect error message @ 2025-10-01 02:24:14Z
 // feat: support drag and drop uploads @ 2025-10-07 02:09:41Z
+// fix: resolve issue with session timeout @ 2025-10-13 02:19:51Z
