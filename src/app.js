@@ -15,3 +15,4 @@
 // feat: support drag and drop uploads @ 2025-10-07 02:09:41Z
 // fix: resolve issue with session timeout @ 2025-10-13 02:19:51Z
 // feat: add user profile page @ 2025-10-16 02:11:04Z
+// fix: resolve login redirect issue @ 2025-10-29 02:25:26Z
