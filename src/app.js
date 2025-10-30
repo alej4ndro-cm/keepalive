@@ -17,3 +17,4 @@
 // feat: add user profile page @ 2025-10-16 02:11:04Z
 // fix: resolve login redirect issue @ 2025-10-29 02:25:26Z
 // feat: add two-factor authentication @ 2025-10-30 02:22:28Z
+// fix: patch memory leak in worker @ 2025-10-30 02:22:31Z
