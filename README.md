@@ -6,3 +6,4 @@
 <!-- docs: add screenshots to README 2025-10-23 02:14:57Z -->
 <!-- docs: add license details 2025-10-29 02:25:15Z -->
 <!-- docs: add API changelog 2025-11-11 02:22:38Z -->
+<!-- docs: clarify training parameters 2025-11-15 02:14:04Z -->
