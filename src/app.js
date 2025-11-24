@@ -21,3 +21,4 @@
 // feat: add speech-to-text service @ 2025-11-02 02:26:26Z
 // feat: integrate OCR for PDFs @ 2025-11-02 02:26:35Z
 // fix: handle expired tokens @ 2025-11-16 02:27:48Z
+// fix: prevent crash on startup @ 2025-11-24 02:29:25Z
