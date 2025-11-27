@@ -8,3 +8,4 @@
 <!-- docs: add API changelog 2025-11-11 02:22:38Z -->
 <!-- docs: clarify training parameters 2025-11-15 02:14:04Z -->
 <!-- docs: add license details 2025-11-16 02:27:52Z -->
+<!-- docs: correct typo in docs 2025-11-27 02:19:18Z -->
