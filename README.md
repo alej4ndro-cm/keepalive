@@ -10,3 +10,4 @@
 <!-- docs: add license details 2025-11-16 02:27:52Z -->
 <!-- docs: correct typo in docs 2025-11-27 02:19:18Z -->
 <!-- docs: add screenshots to README 2025-11-27 02:19:22Z -->
+<!-- docs: correct spelling mistakes 2025-11-29 02:19:58Z -->
