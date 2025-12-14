@@ -25,3 +25,4 @@
 // feat: implement image classification model @ 2025-12-01 02:41:55Z
 // feat: implement notifications system @ 2025-12-03 02:23:07Z
 // feat: implement notifications system @ 2025-12-04 02:25:39Z
+// feat: support drag and drop uploads @ 2025-12-14 02:37:04Z
