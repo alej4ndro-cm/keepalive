@@ -28,3 +28,4 @@
 // feat: support drag and drop uploads @ 2025-12-14 02:37:04Z
 // fix: resolve tokenizer mismatch @ 2025-12-16 02:27:04Z
 // feat: add pagination to results @ 2025-12-19 02:27:32Z
+// feat: integrate third-party API @ 2025-12-20 02:18:47Z
