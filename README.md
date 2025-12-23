@@ -13,3 +13,4 @@
 <!-- docs: correct spelling mistakes 2025-11-29 02:19:58Z -->
 <!-- docs: add screenshots to README 2025-12-13 02:18:41Z -->
 <!-- docs: add FAQ section 2025-12-16 02:27:09Z -->
+<!-- docs: expand contributing guide with AI setup 2025-12-23 02:30:19Z -->
