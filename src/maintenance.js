@@ -44,3 +44,4 @@
 // perf: add GPU memory monitoring @ 2025-12-11 02:28:54Z
 // style: apply black autoformatter @ 2025-12-13 02:18:30Z
 // perf: implement query caching @ 2025-12-21 02:36:49Z
+// refactor: clean up API routes @ 2026-01-01 02:44:49Z
