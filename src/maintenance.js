@@ -52,3 +52,4 @@
 // refactor: clean up API routes @ 2026-01-08 02:34:41Z
 // style: cleanup Python type hints @ 2026-01-09 02:32:36Z
 // style: rename CSS classes @ 2026-01-14 02:39:34Z
+// style: adjust typography scale @ 2026-01-16 02:35:20Z
