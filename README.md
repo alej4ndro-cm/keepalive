@@ -16,3 +16,4 @@
 <!-- docs: expand contributing guide with AI setup 2025-12-23 02:30:19Z -->
 <!-- docs: add API usage guide 2026-01-07 02:32:19Z -->
 <!-- docs: document experiment tracking 2026-01-09 02:32:24Z -->
+<!-- docs: add architecture diagram 2026-01-18 02:41:47Z -->
