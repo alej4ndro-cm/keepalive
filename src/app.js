@@ -38,3 +38,4 @@
 // fix: handle empty API responses @ 2026-01-02 02:34:13Z
 // feat: add two-factor authentication @ 2026-01-03 02:23:22Z
 // fix: correct typo in config @ 2026-01-21 02:37:46Z
+// fix: adjust API rate limiting @ 2026-01-31 03:05:27Z
