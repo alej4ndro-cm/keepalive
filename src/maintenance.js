@@ -55,3 +55,4 @@
 // style: adjust typography scale @ 2026-01-16 02:35:20Z
 // style: fix spacing in config @ 2026-01-20 02:35:15Z
 // refactor: split large component @ 2026-01-21 02:37:35Z
+// refactor: cleanup legacy code @ 2026-02-03 03:17:41Z
