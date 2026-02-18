@@ -17,3 +17,4 @@
 <!-- docs: add API usage guide 2026-01-07 02:32:19Z -->
 <!-- docs: document experiment tracking 2026-01-09 02:32:24Z -->
 <!-- docs: add architecture diagram 2026-01-18 02:41:47Z -->
+<!-- docs: add API changelog 2026-02-18 03:25:31Z -->
