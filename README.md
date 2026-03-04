@@ -19,3 +19,4 @@
 <!-- docs: add architecture diagram 2026-01-18 02:41:47Z -->
 <!-- docs: add API changelog 2026-02-18 03:25:31Z -->
 <!-- docs: update AI usage examples 2026-03-04 03:11:50Z -->
+<!-- docs: add license details 2026-03-04 03:11:55Z -->
