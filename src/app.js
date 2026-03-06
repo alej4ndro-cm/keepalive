@@ -43,3 +43,4 @@
 // fix: restore missing CSS styles @ 2026-02-06 03:13:27Z
 // feat: integrate third-party API @ 2026-02-11 03:32:17Z
 // fix: correct typo in config @ 2026-02-21 03:07:58Z
+// feat: add localization support @ 2026-03-06 03:13:39Z
