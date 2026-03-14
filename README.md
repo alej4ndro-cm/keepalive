@@ -21,3 +21,4 @@
 <!-- docs: update AI usage examples 2026-03-04 03:11:50Z -->
 <!-- docs: add license details 2026-03-04 03:11:55Z -->
 <!-- docs: add screenshots to README 2026-03-10 03:11:19Z -->
+<!-- docs: update roadmap section 2026-03-14 03:11:56Z -->
