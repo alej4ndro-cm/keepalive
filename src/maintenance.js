@@ -74,3 +74,4 @@
 // perf: memoize expensive calls @ 2026-03-09 03:21:10Z
 // style: run linter on project @ 2026-03-13 03:13:42Z
 // style: format Jupyter notebooks @ 2026-03-15 03:40:34Z
+// style: clean code in trainer.py @ 2026-03-15 03:40:44Z
