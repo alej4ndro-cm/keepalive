@@ -22,3 +22,4 @@
 <!-- docs: add license details 2026-03-04 03:11:55Z -->
 <!-- docs: add screenshots to README 2026-03-10 03:11:19Z -->
 <!-- docs: update roadmap section 2026-03-14 03:11:56Z -->
+<!-- docs: document config variables 2026-03-21 03:09:55Z -->
