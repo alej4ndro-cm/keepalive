@@ -23,3 +23,4 @@
 <!-- docs: add screenshots to README 2026-03-10 03:11:19Z -->
 <!-- docs: update roadmap section 2026-03-14 03:11:56Z -->
 <!-- docs: document config variables 2026-03-21 03:09:55Z -->
+<!-- docs: add architecture diagram 2026-03-22 03:24:44Z -->
