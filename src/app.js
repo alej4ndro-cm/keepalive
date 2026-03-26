@@ -45,3 +45,4 @@
 // fix: correct typo in config @ 2026-02-21 03:07:58Z
 // feat: add localization support @ 2026-03-06 03:13:39Z
 // fix: prevent crash on startup @ 2026-03-22 03:24:32Z
+// fix: incorrect error message @ 2026-03-26 03:34:57Z
