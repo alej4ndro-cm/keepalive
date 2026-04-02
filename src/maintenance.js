@@ -80,3 +80,4 @@
 // style: adjust typography scale @ 2026-03-23 03:29:20Z
 // refactor: simplify DB query builder @ 2026-03-30 03:51:45Z
 // style: fix whitespace in JSON configs @ 2026-04-01 03:52:52Z
+// refactor: move constants to config @ 2026-04-02 03:33:27Z
