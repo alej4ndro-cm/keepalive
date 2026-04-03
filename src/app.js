@@ -47,3 +47,4 @@
 // fix: prevent crash on startup @ 2026-03-22 03:24:32Z
 // fix: incorrect error message @ 2026-03-26 03:34:57Z
 // feat: implement image classification model @ 2026-03-31 03:39:10Z
+// feat: integrate GPT API endpoint @ 2026-04-03 03:34:20Z
