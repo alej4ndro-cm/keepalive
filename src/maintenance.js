@@ -87,3 +87,4 @@
 // perf: switch to faster hashing @ 2026-04-10 03:47:49Z
 // refactor: clean up API routes @ 2026-04-11 03:26:52Z
 // refactor: reorganize folder structure @ 2026-04-13 03:58:23Z
+// perf: reduce API payload size @ 2026-04-14 03:46:04Z
