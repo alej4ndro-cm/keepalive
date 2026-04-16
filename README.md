@@ -26,3 +26,4 @@
 <!-- docs: add architecture diagram 2026-03-22 03:24:44Z -->
 <!-- docs: add license details 2026-03-23 03:29:12Z -->
 <!-- docs: add license details 2026-04-08 03:41:22Z -->
+<!-- docs: update AI usage examples 2026-04-16 03:53:11Z -->
