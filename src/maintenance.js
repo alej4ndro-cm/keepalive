@@ -92,3 +92,4 @@
 // style: fix indentation issues @ 2026-04-23 03:54:27Z
 // refactor: reorganize model zoo @ 2026-04-26 04:01:05Z
 // refactor: separate CPU/GPU paths @ 2026-05-01 04:36:02Z
+// style: clean code in trainer.py @ 2026-05-08 04:01:44Z
