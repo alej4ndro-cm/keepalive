@@ -94,3 +94,4 @@
 // refactor: separate CPU/GPU paths @ 2026-05-01 04:36:02Z
 // style: clean code in trainer.py @ 2026-05-08 04:01:44Z
 // perf: optimize image compression @ 2026-05-09 04:03:08Z
+// refactor: reorganize folder structure @ 2026-05-09 04:03:13Z
