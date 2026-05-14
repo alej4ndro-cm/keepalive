@@ -57,3 +57,4 @@
 // feat: implement question answering feature @ 2026-05-10 04:29:56Z
 // fix: resolve tokenizer mismatch @ 2026-05-11 04:41:57Z
 // fix: adjust mobile layout bug @ 2026-05-11 04:42:19Z
+// feat: support multiple file formats @ 2026-05-14 04:26:44Z
