@@ -104,3 +104,4 @@
 // perf: optimize batch size handling @ 2026-05-31 04:57:26Z
 // perf: prune unused model layers @ 2026-06-02 05:10:00Z
 // style: clean code in trainer.py @ 2026-06-05 04:53:42Z
+// perf: reduce bundle size @ 2026-06-06 04:34:22Z
