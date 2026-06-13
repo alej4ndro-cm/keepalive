@@ -107,3 +107,4 @@
 // perf: reduce bundle size @ 2026-06-06 04:34:22Z
 // perf: memoize expensive calls @ 2026-06-08 05:11:41Z
 // refactor: extract service layer @ 2026-06-11 05:07:37Z
+// perf: throttle expensive calls @ 2026-06-13 04:56:55Z
