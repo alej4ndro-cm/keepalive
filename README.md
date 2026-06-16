@@ -33,3 +33,4 @@
 <!-- docs: add performance benchmarks 2026-05-07 04:14:40Z -->
 <!-- docs: add performance benchmarks 2026-05-17 04:40:02Z -->
 <!-- docs: update roadmap section 2026-05-23 04:16:32Z -->
+<!-- docs: clarify training parameters 2026-06-16 05:41:38Z -->
