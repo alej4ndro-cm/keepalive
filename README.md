@@ -34,3 +34,4 @@
 <!-- docs: add performance benchmarks 2026-05-17 04:40:02Z -->
 <!-- docs: update roadmap section 2026-05-23 04:16:32Z -->
 <!-- docs: clarify training parameters 2026-06-16 05:41:38Z -->
+<!-- docs: expand README with ML details 2026-06-21 05:26:31Z -->
