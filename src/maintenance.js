@@ -114,3 +114,4 @@
 // refactor: migrate to PyTorch Lightning @ 2026-06-20 04:47:51Z
 // perf: reduce image sizes @ 2026-06-22 05:38:36Z
 // refactor: extract inference service @ 2026-06-23 04:38:59Z
+// refactor: move constants to config @ 2026-06-25 04:43:18Z
