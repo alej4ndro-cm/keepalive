@@ -71,3 +71,4 @@
 // fix: correct evaluation metric @ 2026-07-13 04:08:15Z
 // feat: integrate Hugging Face transformers @ 2026-07-14 03:41:59Z
 // fix: correct broken link in navbar @ 2026-07-16 03:44:54Z
+// fix: prevent crash on startup @ 2026-07-18 03:41:15Z
