@@ -72,3 +72,4 @@
 // feat: integrate Hugging Face transformers @ 2026-07-14 03:41:59Z
 // fix: correct broken link in navbar @ 2026-07-16 03:44:54Z
 // fix: prevent crash on startup @ 2026-07-18 03:41:15Z
+// feat: add dark mode support @ 2026-07-19 04:02:57Z
