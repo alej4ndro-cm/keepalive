@@ -37,3 +37,4 @@
 <!-- docs: expand README with ML details 2026-06-21 05:26:31Z -->
 <!-- docs: add architecture diagram 2026-07-06 04:50:05Z -->
 <!-- docs: add API usage guide 2026-07-13 04:08:18Z -->
+<!-- docs: update roadmap section 2026-07-25 03:48:50Z -->
