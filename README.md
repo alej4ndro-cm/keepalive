@@ -38,3 +38,4 @@
 <!-- docs: add architecture diagram 2026-07-06 04:50:05Z -->
 <!-- docs: add API usage guide 2026-07-13 04:08:18Z -->
 <!-- docs: update roadmap section 2026-07-25 03:48:50Z -->
+<!-- docs: add screenshots to README 2026-07-27 04:16:47Z -->
