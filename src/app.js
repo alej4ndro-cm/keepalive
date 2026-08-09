@@ -75,3 +75,4 @@
 // feat: add dark mode support @ 2026-07-19 04:02:57Z
 // fix: correct broken link in navbar @ 2026-07-20 04:12:48Z
 // fix: correct loss function calculation @ 2026-08-07 03:23:55Z
+// fix: prevent crash on startup @ 2026-08-09 02:33:50Z
