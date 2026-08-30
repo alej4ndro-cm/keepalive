@@ -42,3 +42,4 @@
 <!-- docs: expand contributing guide with AI setup 2026-07-29 03:49:44Z -->
 <!-- docs: add quick start guide 2026-08-07 03:23:51Z -->
 <!-- docs: clarify testing instructions 2026-08-14 03:08:49Z -->
+<!-- docs: add performance benchmarks 2026-08-30 05:35:53Z -->
