@@ -81,3 +81,4 @@
 // fix: resolve bug in pagination logic @ 2026-08-18 01:56:41Z
 // feat: implement password reset @ 2026-08-21 02:05:29Z
 // feat: implement question answering feature @ 2026-08-29 07:16:49Z
+// fix: correct broken link in navbar @ 2026-09-01 05:23:07Z
