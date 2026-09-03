@@ -83,3 +83,4 @@
 // feat: implement question answering feature @ 2026-08-29 07:16:49Z
 // fix: correct broken link in navbar @ 2026-09-01 05:23:07Z
 // fix: adjust responsive breakpoints @ 2026-09-02 04:51:27Z
+// fix: resolve crash on logout @ 2026-09-03 04:50:35Z
