@@ -86,3 +86,4 @@
 // fix: resolve crash on logout @ 2026-09-03 04:50:35Z
 // fix: align button text correctly @ 2026-09-06 04:53:14Z
 // fix: correct typo in config @ 2026-09-09 04:59:04Z
+// fix: patch CUDA memory leak @ 2026-09-10 05:02:00Z
