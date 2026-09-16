@@ -45,3 +45,4 @@
 <!-- docs: add performance benchmarks 2026-08-30 05:35:53Z -->
 <!-- docs: document new endpoints 2026-09-01 05:23:14Z -->
 <!-- docs: clarify training parameters 2026-09-15 05:07:03Z -->
+<!-- docs: add FAQ section 2026-09-16 05:00:50Z -->
