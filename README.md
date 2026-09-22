@@ -46,3 +46,4 @@
 <!-- docs: document new endpoints 2026-09-01 05:23:14Z -->
 <!-- docs: clarify training parameters 2026-09-15 05:07:03Z -->
 <!-- docs: add FAQ section 2026-09-16 05:00:50Z -->
+<!-- docs: clarify testing instructions 2026-09-22 05:11:56Z -->
