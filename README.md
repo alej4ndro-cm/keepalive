@@ -50,3 +50,4 @@
 <!-- docs: clarify testing instructions 2026-09-23 04:56:22Z -->
 <!-- docs: add quick start guide 2026-09-24 05:07:43Z -->
 <!-- docs: add API changelog 2026-09-29 05:57:37Z -->
+<!-- docs: add architecture diagram 2026-10-11 06:06:00Z -->
