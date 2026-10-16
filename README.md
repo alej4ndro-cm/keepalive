@@ -51,3 +51,4 @@
 <!-- docs: add quick start guide 2026-09-24 05:07:43Z -->
 <!-- docs: add API changelog 2026-09-29 05:57:37Z -->
 <!-- docs: add architecture diagram 2026-10-11 06:06:00Z -->
+<!-- docs: add architecture diagram 2026-10-16 04:48:27Z -->
