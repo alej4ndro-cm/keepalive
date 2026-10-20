@@ -158,3 +158,4 @@
 // perf: memoize expensive calls @ 2026-10-14 05:09:02Z
 // style: remove trailing spaces @ 2026-10-15 04:59:13Z
 // perf: lazy load components @ 2026-10-18 04:51:06Z
+// perf: cache static assets @ 2026-10-20 05:05:29Z
