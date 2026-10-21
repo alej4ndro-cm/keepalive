@@ -160,3 +160,4 @@
 // perf: lazy load components @ 2026-10-18 04:51:06Z
 // perf: cache static assets @ 2026-10-20 05:05:29Z
 // style: cleanup import ordering @ 2026-10-21 05:04:51Z
+// perf: add GPU memory monitoring @ 2026-10-21 05:05:03Z
