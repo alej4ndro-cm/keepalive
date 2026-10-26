@@ -53,3 +53,4 @@
 <!-- docs: add architecture diagram 2026-10-11 06:06:00Z -->
 <!-- docs: add architecture diagram 2026-10-16 04:48:27Z -->
 <!-- docs: update roadmap section 2026-10-18 04:51:19Z -->
+<!-- docs: update README examples 2026-10-26 05:04:45Z -->
