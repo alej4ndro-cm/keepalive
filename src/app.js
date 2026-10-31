@@ -101,3 +101,4 @@
 // feat: add pagination to results @ 2026-10-20 05:05:20Z
 // fix: resolve login redirect issue @ 2026-10-21 05:04:58Z
 // fix: resolve bug in pagination logic @ 2026-10-30 06:08:20Z
+// fix: incorrect error message @ 2026-10-31 06:05:00Z
