@@ -55,3 +55,4 @@
 <!-- docs: update roadmap section 2026-10-18 04:51:19Z -->
 <!-- docs: update README examples 2026-10-26 05:04:45Z -->
 <!-- docs: add setup instructions 2026-10-28 06:01:13Z -->
+<!-- docs: document new endpoints 2026-11-07 06:20:43Z -->
