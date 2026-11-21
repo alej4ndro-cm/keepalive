@@ -105,3 +105,4 @@
 // fix: correct model loading bug @ 2026-11-02 06:31:28Z
 // feat: implement tag system @ 2026-11-09 07:01:17Z
 // fix: correct typo in config @ 2026-11-13 07:03:30Z
+// fix: correct evaluation metric @ 2026-11-21 07:33:45Z
