@@ -57,3 +57,4 @@
 <!-- docs: add setup instructions 2026-10-28 06:01:13Z -->
 <!-- docs: document new endpoints 2026-11-07 06:20:43Z -->
 <!-- docs: document config variables 2026-11-20 07:33:23Z -->
+<!-- docs: add model card for release 2026-11-23 07:58:10Z -->
