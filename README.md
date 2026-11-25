@@ -58,3 +58,4 @@
 <!-- docs: document new endpoints 2026-11-07 06:20:43Z -->
 <!-- docs: document config variables 2026-11-20 07:33:23Z -->
 <!-- docs: add model card for release 2026-11-23 07:58:10Z -->
+<!-- docs: expand setup for Windows 2026-11-25 08:59:47Z -->
