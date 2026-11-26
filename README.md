@@ -59,3 +59,4 @@
 <!-- docs: document config variables 2026-11-20 07:33:23Z -->
 <!-- docs: add model card for release 2026-11-23 07:58:10Z -->
 <!-- docs: expand setup for Windows 2026-11-25 08:59:47Z -->
+<!-- docs: add license details 2026-11-26 08:43:35Z -->
